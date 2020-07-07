@@ -1,4 +1,4 @@
-const Employee = require(/* file structure ../lib/Employee */);
+const Employee = require(/* file structure "../lib/Employee" */);
 
 test("new employee", () => {
 });
