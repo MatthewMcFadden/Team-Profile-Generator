@@ -7,7 +7,7 @@ const Intern = require("./lib/Intern");
 
 let team = [];
 
-const teamNamePrompt = () => {
+async function teamPrompt () {
   response = await inquirer.prompt ([
     {
       type: "input",
