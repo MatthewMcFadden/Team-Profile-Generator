@@ -1,0 +1,32 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "The Team Profile Generator is a Node command-line-input application that asks the user information about an engineering team to create a team profile and generates an HTML file displaying summaries for each team member.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewMcFadden/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "team",
+    "generator"
+  ],
+  "author": "Matthew McFadden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewMcFadden/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/MatthewMcFadden/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.0"
+  }
+}
