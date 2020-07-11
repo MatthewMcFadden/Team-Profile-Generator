@@ -8,12 +8,11 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 
 const writeFileAsync = util.promisify(fs.writeFile);
-const appendFileAsync = util.promisify(fs.appendFile);
 
 let team = [];
 let generateTeam = '';
 
-async function app () {
+async function writeWebpage () {
   try {
     await teamPrompt ()
     for (let i = 0; i < team.length; i++) {
@@ -24,6 +23,7 @@ async function app () {
 
     console.log(generateTeam);
 
+    // stores as index.html file in the 'dist' folder
     writeFileAsync("./dist/index.html", finalHTML)
     
   } catch (err) {
@@ -114,4 +114,4 @@ async function teamPrompt () {
   } while (finishedResponse.finish === "Yes");
 }
 
-app ();
+writeWebpage ();
