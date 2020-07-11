@@ -4,6 +4,7 @@ The Team Profile Generator is a Node command-line-input application that asks th
 Upon launching the app, the user is asked to type information about the first member of the team. The user enters the team member's name, ID number, email address, and what the employee's role is in the team. It will then ask one final question depending on the role. If the Manager is selected, the employee's office number is requested. If the Engineer was selected, the employee's Github username is requested. If the Intern is selected, it will ask what school the team member is attending.
 
 #### Team Profile GIF
+![screenshot](/assets/images/teamProfileScreenshot.jpg)
 ![demo](/assets/gif/TeamProfileGIF.gif)
 
 ## How to install
