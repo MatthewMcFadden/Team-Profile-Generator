@@ -7,6 +7,9 @@ Upon launching the app, the user is asked to type information about the first me
 ![screenshot](/assets/images/teamProfileScreenshot.jpg)
 ![demo](/assets/gif/TeamProfileGIF.gif)
 
+#### Test
+![demo](/assets/gif/TeamProfile-test.gif)
+
 ## How to install
 1. Clone from my Github at https://github.com/MatthewMcFadden/Team-Profile-Generator
 2. Initialize and install node through the terminal

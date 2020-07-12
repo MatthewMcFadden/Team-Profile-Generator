@@ -8,7 +8,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
   "homepage": "https://github.com/MatthewMcFadden/Team-Profile-Generator#readme",
   "dependencies": {
     "inquirer": "^7.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
   }
 }
